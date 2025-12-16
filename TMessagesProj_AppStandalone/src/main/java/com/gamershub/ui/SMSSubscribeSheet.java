@@ -1,9 +1,9 @@
-package org.telegram.ui;
+package com.gamershub.ui;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.LocaleController.formatPluralString;
-import static org.telegram.messenger.LocaleController.formatString;
-import static org.telegram.messenger.LocaleController.getString;
+import static com.gamershub.pro.AndroidUtilities.dp;
+import static com.gamershub.pro.LocaleController.formatPluralString;
+import static com.gamershub.pro.LocaleController.formatString;
+import static com.gamershub.pro.LocaleController.getString;
 
 import android.Manifest;
 import android.app.Activity;
@@ -26,29 +26,29 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.BotWebViewVibrationEffect;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.SMSJobController;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.browser.Browser;
-import org.telegram.messenger.web.R;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.tgnet.TL_smsjobs;
-import org.telegram.ui.ActionBar.AlertDialog;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.ActionBar.BottomSheet;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.Components.BulletinFactory;
-import org.telegram.ui.Components.CheckBoxSquare;
-import org.telegram.ui.Components.FireworksOverlay;
-import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Components.LinkSpanDrawable;
-import org.telegram.ui.Components.RLottieImageView;
-import org.telegram.ui.Stories.recorder.ButtonWithCounterView;
+import com.gamershub.pro.AndroidUtilities;
+import com.gamershub.pro.BotWebViewVibrationEffect;
+import com.gamershub.pro.LocaleController;
+import com.gamershub.pro.NotificationCenter;
+import com.gamershub.pro.SMSJobController;
+import com.gamershub.pro.UserConfig;
+import com.gamershub.pro.Utilities;
+import com.gamershub.pro.browser.Browser;
+import com.gamershub.pro.R;
+import com.gamershub.tgnet.ConnectionsManager;
+import com.gamershub.tgnet.TLRPC;
+import com.gamershub.tgnet.TL_smsjobs;
+import com.gamershub.ui.ActionBar.AlertDialog;
+import com.gamershub.ui.ActionBar.BaseFragment;
+import com.gamershub.ui.ActionBar.BottomSheet;
+import com.gamershub.ui.ActionBar.Theme;
+import com.gamershub.ui.Components.BulletinFactory;
+import com.gamershub.ui.Components.CheckBoxSquare;
+import com.gamershub.ui.Components.FireworksOverlay;
+import com.gamershub.ui.Components.LayoutHelper;
+import com.gamershub.ui.Components.LinkSpanDrawable;
+import com.gamershub.ui.Components.RLottieImageView;
+import com.gamershub.ui.Stories.recorder.ButtonWithCounterView;
 
 import java.util.Locale;
 
