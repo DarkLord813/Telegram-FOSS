@@ -1,10 +1,10 @@
-package org.telegram.ui;
+package com.gamershub.ui;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.dpf2;
-import static org.telegram.messenger.LocaleController.formatPluralString;
-import static org.telegram.messenger.LocaleController.formatString;
-import static org.telegram.messenger.LocaleController.getString;
+import static com.gamershub.pro.AndroidUtilities.dp;
+import static com.gamershub.pro.AndroidUtilities.dpf2;
+import static com.gamershub.pro.LocaleController.formatPluralString;
+import static com.gamershub.pro.LocaleController.formatString;
+import static com.gamershub.pro.LocaleController.getString;
 
 import android.Manifest;
 import android.content.Context;
