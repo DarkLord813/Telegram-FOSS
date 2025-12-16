@@ -1,4 +1,4 @@
-package org.telegram.ui.Components;
+package com.gamershub.ui.Components;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -16,15 +16,15 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.ImageLoader;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.ui.ActionBar.SimpleTextView;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.IUpdateLayout;
+import com.gamershub.pro.AndroidUtilities;
+import com.gamershub.pro.FileLoader;
+import com.gamershub.pro.ImageLoader;
+import com.gamershub.pro.LocaleController;
+import com.gamershub.pro.R;
+import com.gamershub.pro.SharedConfig;
+import com.gamershub.ui.ActionBar.SimpleTextView;
+import com.gamershub.ui.ActionBar.Theme;
+import com.gamershub.ui.IUpdateLayout;
 
 import java.io.File;
 
