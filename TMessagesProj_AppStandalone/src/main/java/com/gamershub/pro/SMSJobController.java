@@ -1,4 +1,4 @@
-package org.telegram.messenger;
+package com.gamershub.pro;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -27,18 +27,18 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.RequiresPermission;
 
-import org.telegram.PhoneFormat.PhoneFormat;
-import org.telegram.messenger.web.R;
-import org.telegram.tgnet.AbstractSerializedData;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.SerializedData;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TL_smsjobs;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.Components.Bulletin;
-import org.telegram.ui.Components.BulletinFactory;
-import org.telegram.ui.LaunchActivity;
-import org.telegram.ui.SMSSubscribeSheet;
+import com.gamershub.PhoneFormat.PhoneFormat;
+import com.gamershub.pro.R;
+import com.gamershub.tgnet.AbstractSerializedData;
+import com.gamershub.tgnet.ConnectionsManager;
+import com.gamershub.tgnet.SerializedData;
+import com.gamershub.tgnet.TLObject;
+import com.gamershub.tgnet.TL_smsjobs;
+import com.gamershub.tgnet.TLRPC;
+import com.gamershub.ui.Components.Bulletin;
+import com.gamershub.ui.Components.BulletinFactory;
+import com.gamershub.ui.LaunchActivity;
+import com.gamershub.ui.SMSSubscribeSheet;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
