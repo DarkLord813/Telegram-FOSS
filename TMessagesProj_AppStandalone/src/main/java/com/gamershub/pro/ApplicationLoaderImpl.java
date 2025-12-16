@@ -1,6 +1,6 @@
-package org.telegram.messenger;
+package com.gamershub.pro;
 
-import static org.telegram.ui.PremiumPreviewFragment.applyNewSpan;
+import static com.gamershub.ui.PremiumPreviewFragment.applyNewSpan;
 
 import android.app.Activity;
 import android.content.Context;
