@@ -1,4 +1,4 @@
-package org.telegram.messenger;
+package com.gamershub.pro;
 
 import org.telegram.messenger.regular.BuildConfig;
 
