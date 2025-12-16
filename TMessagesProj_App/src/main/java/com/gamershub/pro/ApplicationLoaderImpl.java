@@ -1,6 +1,6 @@
 package com.gamershub.pro;
 
-import org.telegram.messenger.regular.BuildConfig;
+import com.gamershub.pro.regular.BuildConfig;
 
 public class ApplicationLoaderImpl extends ApplicationLoader {
     @Override
