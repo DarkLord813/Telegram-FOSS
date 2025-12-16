@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2018.
  */
 
-package org.telegram.messenger;
+package com.gamershub.pro;
 
 import android.content.Intent;
 import android.os.Bundle;
