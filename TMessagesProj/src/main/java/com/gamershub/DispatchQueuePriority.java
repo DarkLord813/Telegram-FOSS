@@ -1,6 +1,6 @@
-package org.telegram;
+package com.gamershub;
 
-import org.telegram.messenger.FileLog;
+import com.gamershub.pro.FileLog;
 
 import java.util.Comparator;
 import java.util.concurrent.CountDownLatch;
